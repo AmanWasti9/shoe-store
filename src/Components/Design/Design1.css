@@ -1,0 +1,22 @@
+.Design1__main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Design1__1, .Design1__2{
+    width: 30%;
+}
+.Design1__1 img, .Design1__2 img{
+    width: 90%;
+}
+@media screen and (max-width: 768px) {
+    .Design1__main{
+        display: flex;
+        flex-direction: column;
+    }
+    .Design1__1, .Design1__2{
+        width: 50%;
+    }
+}

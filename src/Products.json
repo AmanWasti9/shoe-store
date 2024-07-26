@@ -1,0 +1,80 @@
+[
+  {
+    "id": "air-jordan-1-valor-blue",
+    "name": "Product 1",
+    "price": "$800",
+    "img": "/Img/sneaker1.jpg"
+  },
+  {
+    "id": "air-Nike-2-valor-Brown",
+    "name": "Product 2",
+    "price": "$400",
+    "img": "/Img/sneaker2.jpg"
+  },
+  {
+    "id": "air-jordan-3-valor-blue",
+    "name": "Product 3",
+    "price": "$800",
+    "img": "/Img/sneaker3.jpg"
+  },
+  {
+    "id": "air-Nike-4-valor-Brown",
+    "name": "Product 4",
+    "price": "$400",
+    "img": "/Img/sneaker4.jpg"
+  },
+  {
+    "id": "air-jordan-5-valor-blue",
+    "name": "Product 5",
+    "price": "$800",
+    "img": "/Img/sneaker5.jpg"
+  },
+  {
+    "id": "air-Nike-6-valor-Brown",
+    "name": "Product 6",
+    "price": "$400",
+    "img": "/Img/sneaker6.jpg"
+  },
+  {
+    "id": "air-jordan-7-valor-blue",
+    "name": "Product 7",
+    "price": "$800",
+    "img": "/Img/sneaker7.jpg"
+  },
+  {
+    "id": "air-Nike-8-valor-Brown",
+    "name": "Product 8",
+    "price": "$400",
+    "img": "/Img/sneaker8.png"
+  },
+  {
+    "id": "air-jordan-9-valor-blue",
+    "name": "Product 9",
+    "price": "$800",
+    "img": "/Img/sneaker9.jpg"
+  },
+  {
+    "id": "air-Nike-10-valor-Brown",
+    "name": "Product 10",
+    "price": "$400",
+    "img": "/Img/sneaker10.jpg"
+  },
+  {
+    "id": "air-jordan-11-valor-blue",
+    "name": "Product 11",
+    "price": "$800",
+    "img": "/Img/sneaker11.jpg"
+  },
+  {
+    "id": "air-Nike-12-valor-Brown",
+    "name": "Product 12",
+    "price": "$400",
+    "img": "/Img/sneaker12.jpg"
+  },
+  {
+    "id": "air-Nike-13-valor-Brown",
+    "name": "Product 13",
+    "price": "$400",
+    "img": "/Img/sneaker13.jpg"
+  }
+]

@@ -1,0 +1,28 @@
+.containerDesign {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap; /* Wrap elements to next line if space is not enough */
+    justify-content: space-between; /* Distribute elements evenly along the line */
+  }
+  
+  .DesignImg,
+  .DesignImg1 {
+    margin-top: 1rem;
+    border-radius: 6px;
+  }
+  
+  .DesignImg {
+    border: 6px solid red;
+  }
+  
+  .DesignImg1 {
+    border: 6px solid black;
+  }
+  .DesignImg,
+  .DesignImg1 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+  

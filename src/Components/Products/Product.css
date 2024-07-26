@@ -1,0 +1,85 @@
+.shop-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust as needed */
+  }
+  
+  .Project__Main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .Project__Img__Div {
+    width: 100%;
+  }
+  
+  .Project__Img {
+    width: 100%;
+    object-fit: cover; /* or 'contain' if you prefer */
+    display: block;
+  }
+  
+  .Project__Main:hover {
+    border: 1px solid rgb(94, 89, 89);
+  }
+  
+  .Project__Main:hover .project-tr {
+    transform: scale(0.9);
+  }
+  
+  .project-tr {
+    transition: all 0.4s;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .justify-end {
+    justify-content: flex-end;
+  }
+  
+  .code-icons {
+    margin-top: 10px;
+  }
+  
+  .gap-10 {
+    gap: 10px;
+  }
+  
+  .font-size-15 {
+    font-size: 15px;
+  }
+  
+  .font-weight-500 {
+    font-weight: 500;
+  }
+  
+  .margin-left-10 {
+    margin-left: 10px;
+  }
+  
+  .txt-none {
+    text-decoration: none;
+  }
+  
+  .color-white {
+    color: white;
+  }
+  

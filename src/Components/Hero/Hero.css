@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+.Home{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.containerr{
+    font-family: 'Signika Negative', sans-serif;
+
+}
+.left-h{
+    padding: 1rem;
+    padding-top: 1.5rem;
+    flex: 3.5;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.best-add{
+    margin-top: 4rem;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 10px;
+    text-transform: capitalize;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.best-add>span{
+    z-index: 2;
+}
+.best-add>div{
+    position: absolute;
+    background-color: red;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    animation: 3s infinite alternate;
+    z-index: 1;
+    width: 5.4rem;
+}
+.Home-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+    width: fit-content;
+}
+.span-line{
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.5;
+    width: 80%;
+    
+}
+.figures{
+    display: flex;
+    gap: 2rem;
+}
+.figures1, .figures2, .figures3{
+    float: left ;
+    display: flex;
+    flex-direction: column;
+}
+.span1{
+    color: white;
+    font-size: 2rem;
+}
+.span2{
+    color: red;
+    text-transform: uppercase;
+}
+.hero-btn{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+.hero-btn>:nth-child(1){
+    color:white;
+    background-color: red;
+    width: 8rem;
+}
+.hero-btn>:nth-child(2){
+    color:white;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid red;
+}
+.Virat-image {
+    max-width: 100%;
+    height: auto;
+    float: left; /* Float the image to the left side */
+  margin-right: 10px; /* Add space between the image and the next element */
+  -webkit-box-reflect: left 1px linear-gradient(transparent, #0005); 
+
+}
+
+
+/* .Virat-image{
+    position: absolute;
+    top: 10rem;
+    right: 4rem;
+    width: 30rem;
+} */
+.name{
+    border: 2px solid red;
+    margin-right: 30%;
+    margin-top: 15%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: fit-content;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.i1{
+    margin-bottom: 1rem;
+}
+#a{
+    display:none;
+}
+@media screen and (max-width: 767px) {
+.Home{
+ display: flex;
+ flex-direction: column;
+}
+}
